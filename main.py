@@ -104,4 +104,5 @@ with tf.Session() as sess:
     anim = FuncAnimation(fig, update, frames=np.arange(0, 100), interval=100, repeat=False)
 
     # Save the animation as a GIF file
-    anim.save('wave_propagation.gif', writer='imagemagick')
+    plt.show()
+    #anim.save('wave_propagation.gif', writer='imagemagick')
